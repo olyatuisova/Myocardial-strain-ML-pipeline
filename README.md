@@ -14,9 +14,6 @@ It is designed with a strong focus on cloud infrastructure (GCP), scalability, a
 * **Data Processing:** Asynchronous inference pipelines
 
 ## System Architecture
-*(A detailed system design diagram will be added here)*
-
-![System Architecture](docs/architecture.png)
 
 **Data Flow:**
 1. **Client** sends a video file via REST API.
@@ -24,7 +21,7 @@ It is designed with a strong focus on cloud infrastructure (GCP), scalability, a
 3. **ML Engine** performs inference on the video frames to track myocardial speckles.
 4. The system calculates the strain metrics and returns a structured `JSON` response.
 
-## 🚀 Getting Started (Local Development)
+##  Getting Started (Local Development)
 
 ### Prerequisites
 * Python 3.10+
