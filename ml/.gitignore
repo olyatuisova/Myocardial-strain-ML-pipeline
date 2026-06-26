@@ -1,0 +1,11 @@
+
+venv/
+env/
+
+__pycache__/
+*.pyc
+
+#temp folders
+temp_uploads/
+
+.DS_Store
